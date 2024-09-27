@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nomvulo A Mafuta | Portfolio</title>
+    <!-- Main css -->
+    <link rel="stylesheet" href="../assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Back Top Button -->
+    <div class="back-top-btn">
+      <span class="back-top"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <!-- Navbar -->
+    <header class="home-pg-navbar">
+      <div class="container">
+        <nav>
+          <a href="#" class="logo-wrapper">
+            <span class="logo"> Nomvulo Mafuta</span>
+          </a>
+          <ul class="navbar">
+            <li class="nav-link"><a href="main.html">Home</a></li>
+            <li class="nav-link"><a href="about.html">About Me</a></li>
+            <li class="nav-link"><a href="family.html">Family</a></li>
+            <li class="nav-link active">
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-link"><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- Portfolio -->
+    <div class="section" id="portfolio">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="section-subheading">Portfolio</h3>
+          <h2 class="section-heading-main">My Work</h2>
+        </div>
+        <div class="portfolio-filter">
+          <button class="primary-btn filter-button" data-filter="all">
+            All
+          </button>
+          <button class="secondary-btn filter-button" data-filter="web">
+            Web Development
+          </button>
+          <button class="secondary-btn filter-button" data-filter="mobile">
+            Mobile Development
+          </button>
+        </div>
+        <div class="portfolio-content card">
+          <div class="project-card" data-category="web">
+            <div class="image-wrapper">
+              <img
+                src="https://images.pexels.com/photos/3184404/pexels-photo-3184404.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+                alt="Personal Portfolio Website"
+                class="project-image"
+              />
+            </div>
+
+            <h3 class="project-title">Personal Portfolio Website</h3>
+            <p class="project-description">
+              A responsive portfolio website showcasing my projects and skills,
+              built with HTML, CSS, and JavaScript.
+            </p>
+          </div>
+
+          <div class="project-card" data-category="web">
+            <div class="image-wrapper">
+              <img
+                src="https://images.pexels.com/photos/3184315/pexels-photo-3184315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+                alt="E-Commerce Web Application"
+                class="project-image"
+              />
+            </div>
+
+            <h3 class="project-title">E-Commerce Web Application</h3>
+            <p class="project-description">
+              A full-stack e-commerce application developed with React.js and
+              Node.js, featuring user authentication and payment processing.
+            </p>
+          </div>
+
+          <div class="project-card" data-category="mobile">
+            <div class="image-wrapper">
+              <img
+                src="https://images.pexels.com/photos/3184382/pexels-photo-3184382.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=300&w=300"
+                alt="Mobile App Development"
+                class="project-image"
+              />
+            </div>
+
+            <h3 class="project-title">Mobile App Development</h3>
+            <p class="project-description">
+              A mobile application developed using Flutter for cross-platform
+              functionality, focusing on user-friendly design and performance.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer Section-->
+    <div class="section" id="footer-section">
+      <div class="container">
+        <div class="section-heading">
+          <h3 class="section-subheading">Don't be shy</h3>
+          <h2 class="section-heading-main">Let's get in touch</h2>
+        </div>
+        <div class="contact-flex">
+          <div class="contact-list">
+            <ul>
+              <li>
+                <span class="contact-icon">
+                  <a href="#"><i class="fa-solid fa-phone-volume"></i></a>
+                </span>
+                <div class="contact-details">
+                  <span class="contact-title">Phone</span>
+                  <span class="contact-text">+27 78285 0001</span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon">
+                  <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                </span>
+                <div class="contact-details">
+                  <span class="contact-title">Email</span>
+                  <span class="contact-text">
+                    <a href="#">amkelesnentlantla5@gmail.com</a>
+                  </span>
+                </div>
+              </li>
+              <li>
+                <span class="contact-icon">
+                  <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+                </span>
+                <div class="contact-details">
+                  <span class="contact-title">Location</span>
+                  <span class="contact-text"
+                    >East London, South Africa</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="contact-form">
+            <form id="contactForm" action="#" method="post">
+              <div class="input-flex">
+                <div class="contact-form-input">
+                  <input type="text" name="fname" placeholder="Your Fullname" />
+                  <span class="error-message" style="color: red"></span>
+                </div>
+                <div class="contact-form-input">
+                  <input type="email" name="email" placeholder="Your Email" />
+                  <span class="error-message" style="color: red"></span>
+                </div>
+              </div>
+              <div class="contact-form-input">
+                <textarea
+                  name="message"
+                  rows="5"
+                  placeholder="Your Message"
+                ></textarea>
+                <span class="error-message" style="color: red"></span>
+              </div>
+              <input type="submit" class="primary-btn" value="Send message" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Bottom Section-->
+    <div id="bottom-section">
+      <div class="container">
+        <span> Copyright &copy; Nomvulo Amkelwe Mafuta</span>
+        <ul class="social-media">
+          <li><a href="#">Linkedin</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+    </div>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
